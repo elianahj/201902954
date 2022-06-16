@@ -76,15 +76,15 @@ public double solve(Problem p, double t, double c, double a0, double lower, doub
 => a0 = 0.0500214
  
 ### 모의 담금질 결과
-1. 사용한 데이터 집합  
+**1. 사용한 데이터 집합**  
 
  <img src = "https://user-images.githubusercontent.com/80517119/174120022-380d9c6c-7df0-4300-a36f-5a766f839857.JPG" width="40%"></img>  
  
-2. 설정한 1차 회귀식  
+**2. 설정한 1차 회귀식**  
 
  <img src = "https://user-images.githubusercontent.com/80517119/174120751-6399fe63-0067-4e9e-8f77-d2b6ba4da537.png" width="50%"></img>   
  
-3. 모의 담금질 기법 결과  
+**3. 모의 담금질 기법 결과**  
 
  <img src = "https://user-images.githubusercontent.com/80517119/174121006-38e7bd2c-11c0-4790-8ba1-279587ec6385.png" width="50%"></img>   
 
