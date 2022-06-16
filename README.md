@@ -83,7 +83,8 @@ public double solve(Problem p, double t, double c, double a0, double lower, doub
  <img src = "https://user-images.githubusercontent.com/80517119/174120751-6399fe63-0067-4e9e-8f77-d2b6ba4da537.png" width="50%"></img>   
  
 3. 모의 담금질 기법 결과  
-<img src = "https://user-images.githubusercontent.com/80517119/174121006-38e7bd2c-11c0-4790-8ba1-279587ec6385.png" width="50%"></img>   
+
+ <img src = "https://user-images.githubusercontent.com/80517119/174121006-38e7bd2c-11c0-4790-8ba1-279587ec6385.png" width="50%"></img>   
 
 => 설정했던 1차 회귀식보다, 데이터 집합에 근소하게 더 가까워진 결과 값을 나타냅니다
 
