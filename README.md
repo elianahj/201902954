@@ -1,7 +1,19 @@
 # Simulated Annealing_201902954한현진
 ## 모의 담금질 기법
 > 높은 온도에서 액체 상태인 물질이 온도가 점차 낮아지면서 결정체로 변하는 과정을 모방한 해 탐색 알고리즘  
-> 해 탐색 방식 : 특정한 패턴 없이 이루어지다가 점점 더 규칙적인 방식으로 이루어짐 => **이웃해를 정의하여야 함**
+> 해 탐색 방식 : 특정한 패턴 없이 이루어지다가 점점 더 규칙적인 방식으로 이루어짐 => **이웃해를 정의하여야 함**  
+
+## 데이터 집합
+> 에탄올의 상대 점성계수를 사용
+- 용매의 무게 x의 비율에 따른 에탄올의 점성계수 y  
+
+ ![image](https://user-images.githubusercontent.com/80517119/173869404-538dcbb2-d1ff-4ade-90c3-6ce8f73eaeff.png)  
+- 두 변수 x,y의 관계를 설명하는 수학적 모형(1차 회귀식) 가정  
+
+<img src = "https://user-images.githubusercontent.com/80517119/173870361-7871009b-d4cd-44d9-bd26-dd27938f6366.png" width="70%"></img>  
+
+ => 데이터 집합을 통해 1차 회귀식을 **y = 0.0505x + 1.0373**으로 가정  
+
 ### 모의 담금질 방식
 1. 임의의 후보해 a0를 선택
 2. 충분히 높은 값의 t를 설정
@@ -51,16 +63,6 @@ public double solve(Problem p, double t, double c, double a0, double lower, doub
     }
 ```  
 
-### 데이터 집합
-> 에탄올의 상대 점성계수를 사용
-- 용매의 무게 x의 비율에 따른 에탄올의 점성계수 y  
-
- ![image](https://user-images.githubusercontent.com/80517119/173869404-538dcbb2-d1ff-4ade-90c3-6ce8f73eaeff.png)  
-- 두 변수 x,y의 관계를 설명하는 수학적 모형(1차 회귀식) 가정  
-
-<img src = "https://user-images.githubusercontent.com/80517119/173870361-7871009b-d4cd-44d9-bd26-dd27938f6366.png" width="70%"></img>  
-
- => 데이터 집합을 통해 1차 회귀식을 **y = 0.0505x + 1.0373**으로 가정  
  
 ### 모의 담금질
 > b를 1로 고정시킨 후(직관적으로 추정 가능), a의 값을 모의 담금질을 통해 추정  
