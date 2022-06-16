@@ -69,7 +69,7 @@ public double solve(Problem p, double t, double c, double a0, double lower, doub
 
 #### 실행 결과
 
-<img src = "https://user-images.githubusercontent.com/80517119/174146685-70df659c-9306-4ef5-a09e-558578d87c8b.jpg" width="40%"></img>  
+<img src = "https://user-images.githubusercontent.com/80517119/174146685-70df659c-9306-4ef5-a09e-558578d87c8b.jpg" width="70%"></img>  
 
 => a0 = 0.0500214
  
