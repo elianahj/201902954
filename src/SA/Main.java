@@ -12,7 +12,7 @@ public class Main {
 
             @Override
             public double fit(double a) {
-                double s = 0;
+                double s;
                 for (int i = 0; i < x.length; i++) {
                     //에러 = 실제 데이터 값과 함수값의 차이
                     error = (y[i] - (a * x[i] + 1.037));
