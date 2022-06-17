@@ -21,8 +21,8 @@ public class Main {
                     // 손실 함수(아래로 볼록한 2차함수 형태)를 생성 = x축 : a0 / y축 : loss값
                     // => 손실 값이 가장 적은 a를 찾는다. 미분해서 0인 지점을 찾아야...  ?
                     loss += (error * error);
-                    s = loss / x.length; //그냥.. 평균값을 내주었습니다
                 }
+                s = loss / x.length; //그냥.. 평균값을 내주었습니다
                 return s;
             }//가장 에러가 적은 a의 값을 찾는다
 
